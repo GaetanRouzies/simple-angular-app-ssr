@@ -10,5 +10,5 @@ import {RouterLink, RouterOutlet} from '@angular/router';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'simple-angular-app-ssr';
+  title = 'simple-angular-17-app';
 }

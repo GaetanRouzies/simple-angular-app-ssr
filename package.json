@@ -1,5 +1,5 @@
 {
-  "name": "simple-angular-app-ssr",
+  "name": "simple-angular-17-app",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:simple-angular-app-ssr": "node dist/simple-angular-app-ssr/server/server.mjs"
+    "serve:ssr:simple-angular-17-app": "node dist/simple-angular-17-app/server/server.mjs"
   },
   "private": true,
   "dependencies": {

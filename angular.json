@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "simple-angular-app-ssr": {
+    "simple-angular-17-app": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/simple-angular-app-ssr",
+            "outputPath": "dist/simple-angular-17-app",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -70,10 +70,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "simple-angular-app-ssr:build:production"
+              "buildTarget": "simple-angular-17-app:build:production"
             },
             "development": {
-              "buildTarget": "simple-angular-app-ssr:build:development"
+              "buildTarget": "simple-angular-17-app:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -81,7 +81,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "simple-angular-app-ssr:build"
+            "buildTarget": "simple-angular-17-app:build"
           }
         },
         "test": {
