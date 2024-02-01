@@ -1,6 +1,6 @@
 {
   "routes": [
-    "/another-page",
+    "/",
     "/home"
   ]
 }
